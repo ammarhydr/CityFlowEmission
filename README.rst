@@ -1,3 +1,5 @@
+This repository is an extension of CityFlow with CO2 emission estimation models used in FAirLight RL-based traffic signal controller model.
+
 CityFlow
 ============
 
