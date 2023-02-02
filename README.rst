@@ -9,11 +9,12 @@ Please build this version of CityFlow from this source code
 CityFlow has little dependencies, so building from source is not scary.
 
 Check that you have python 3 installed. Other version of python might work, however, we only tested on python with version >= 3.5.
-Install cpp dependencies
 
+* Install cpp dependencies
   ```sh
   sudo apt update && sudo apt install -y build-essential cmake
   ```
+
 
 Clone CityFlow project from github.
 
