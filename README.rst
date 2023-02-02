@@ -1,9 +1,30 @@
 This repository is an extension of CityFlow with CO2 emission estimation models used in FAirLight RL-based traffic signal controller model.
 
-Installation
------
+## Installation
 
 Please build this version of CityFlow from this source code
+
+
+Follow these steps to reproduce the results of our paper.
+* Generate taxidaset samples using 
+  ```sh
+  cabspotting.py
+  ```
+  
+* Run experiments with 
+  ```sh
+  map_matcher_traj_A*_clean_taxi.py
+  ```
+
+* Visualize the results for different epsilon values with 
+  ```sh
+  comparisons_trajs_taxi_eps.py
+  ```
+
+* Visualize the results for different methods with 
+  ```sh
+  comparisons_trajs_taxi_methods.py
+  ```
 
 
 CityFlow has little dependencies, so building from source is not scary.
